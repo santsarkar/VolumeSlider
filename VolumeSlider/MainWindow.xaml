@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:VolumeSlider"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="100">
-    <Grid>
+    <StackPanel Background="Black" >
         <local:VolumeControlWithTextAndToggle/>
-    </Grid>
+    </StackPanel>
 </Window>
