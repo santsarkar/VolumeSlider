@@ -35,7 +35,9 @@ namespace VolumeSlider
                 {
                     Text = $"{value} db",
                     VerticalAlignment = VerticalAlignment.Center,
-                    Margin = new Thickness(0, 18, 0, 0)
+                    Margin = new Thickness(0, 17, 0, 0),
+                    Foreground = Brushes.White
+
                 };
                 scalePanel.Children.Add(scaleTextBlock);
             }
@@ -64,7 +66,6 @@ namespace VolumeSlider
                 IsSnapToTickEnabled=true,
                 Background = Brushes.Teal,
                 Value=-50,
-                //Margin = new Thickness(0, 18, 0, 0)
             };
 
             AddScale();
